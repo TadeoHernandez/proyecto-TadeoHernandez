@@ -12,6 +12,9 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Bootstrap fin -->
     <link rel="stylesheet" href="./css/estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 
@@ -25,14 +28,13 @@
         crossorigin="anonymous"></script>
     <!-- booststrap fin-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
                 <div class="container-brand">
                     <a class="navbar-brand" href="#">
                         <img src="./multimedia/dulcemi.png" alt="avatar1"></a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -59,8 +61,8 @@
                 </div>
             </div>
         </nav>
+        
     </header>
-
     <main>
         <div class="container text-center">
             <h2 id="sec1">Lo que más nos piden</h2>
@@ -113,14 +115,13 @@
                 </a>
             </div>
         </div>
-        </div>
         <h4 class="titulo-imagen">Tenemos envíos también</h4>
         <div class="imagen-con-botones">
             <img src="./multimedia/envios-trans.png" alt="Envíos">
             <a href="./pages/envios.html"><button class="boton-sobre-imagen">Click</button></a>
         </div>
         <div class="container text-center">
-            <h2 id="sec1">Box Especiales, especialmente ricos</h2>
+            <h2 id="sec1">Box especial, especialmente rico</h2>
             <div class="row">
                 <div class="col-12 col-md-4 d-none d-md-block">
                     <div class="foto2">
@@ -129,6 +130,7 @@
                         </div>
                     </div>
                 </div>
+        
                 <div class="col-12 col-md-4 d-none d-md-block">
                     <div class="foto2">
                         <img src="./multimedia/img5.jpg" alt="Foto 2">
@@ -140,22 +142,45 @@
                     <div class="foto2">
                         <img src="./multimedia/img1.jpg" alt="Foto 3">
                         <div class="productonombre">Box huevo rellenos de crema<div class="productoprecio">
-                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="d-lg-none">
+                <div id="miCarrusel2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./multimedia/conejoscolores.jpg" alt="Foto 1" class="carousel-image2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./multimedia/img1.jpg" alt="Foto 2" class="carousel-image2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./multimedia/img5.jpg" alt="Foto 3" class="carousel-image2">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#miCarrusel2" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#miCarrusel2" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            
+            
     </main>
-
-
-<footer>
-    <div class="redes">
-        <a href="https://www.instagram.com/dulcemi_uy/"><i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.tiktok.com/@sofigut28"><i class="fa-brands fa-tiktok"></i></a>
-    </div>
-    © Copyright 2023 , Dulce Emilia
-</footer>
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com/dulcemi_uy/"><i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@sofigut28"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        © Copyright 2023 , Dulce Emilia
+    </footer>
 
 </body>
 
