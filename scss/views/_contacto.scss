@@ -1,0 +1,82 @@
+h6 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin: 15px;
+    background-color: #e8c39e;
+    padding: 10px;
+    line-height: 30px;
+}
+.container-from {
+    width: 100%;
+    max-width: 1100px;
+    margin: 110px auto;/* Cambia "margin" para centrar verticalmente y horizontalmente */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 15px;
+    justify-content: center;/* Centra horizontalmente dentro del contenedor */
+    align-items: center;/* Centra verticalmente dentro del contenedor */
+}
+.container-from h4 {
+    text-align: center;
+    /* Alinea el texto al centro */
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.container-from p {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;/* Alinea el texto al centro */
+    font-size: 20px;
+    line-height: 1.9;
+
+}
+.container-from a {
+    text-align: center;/* Alinea el texto al centro */
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #000000;
+    font-size: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.container-from a i {
+    text-align: center;
+    color: #e8c39e;
+    margin-bottom: 10px;
+}
+.container-from form .campo,
+.container-from form textarea {
+    width: 100%;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #e8c39e;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-from form textarea {
+    text-align: center;
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-from .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #e8c39e;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: all 300ms ease;
+}

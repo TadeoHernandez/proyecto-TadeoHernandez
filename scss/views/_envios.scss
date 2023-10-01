@@ -1,0 +1,34 @@
+.preguntasyrespuestas {
+    text-align: center;
+    font-size: 25px;
+    background: #ffffff;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pregunta {
+    text-align: center;
+    color: #050505;
+    width: 60%;
+    font-size: 25px;
+    position: relative;
+    left: 20%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: #e8c39e;/*Fondo letras*/
+    max-height: 35px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.respuesta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: #020202;
+    font-family: "Poppins", sans-serif;
+    left: 15%;
+}
+.mapzone {
+    max-width: 1000px;
+    max-height: auto;
+}
