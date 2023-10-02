@@ -3,7 +3,7 @@ h2 {
     margin-top: 20px;
     width: fit-content;
     background-color: #e8c39e;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 800;
     color: #ffffff;
     line-height: 34px;
@@ -21,7 +21,7 @@ h2 {
     margin-bottom: 27px;
     padding-top: 3px;
     letter-spacing: 0;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 20px;
     font-weight: 800;
     color: #afafaf;
@@ -32,12 +32,12 @@ h2 {
     text-align: left;/* Centra el contenido horizontalmente */
 }
 .imagen-con-botones img {
-    max-width: 2500px;
-    height: 750px;
+    width: 1500px;
+    height: 650px;
 }
 .boton-sobre-imagen {
     position: absolute;
-    bottom: 100px;/* Ajusta la posición vertical del botón */
+    bottom: 83px;/* Ajusta la posición vertical del botón */
     left: 185px;/* Centra el botón horizontalmente en relación con el contenedor */
     transform: translateX(-50%);/* Centra el botón horizontalmente */
     background-color: #ffffff;/* Color de fondo del botón */
@@ -59,9 +59,9 @@ h2 {
     max-width: 420px;
 }
 .foto2 img {/* Estilos para las imágenes */
-    max-width: 400px;
-    max-height: auto;
+    width: 400px;
     height: auto;
+    
 }
 .foto2:hover {
     transform: scale(1.05);

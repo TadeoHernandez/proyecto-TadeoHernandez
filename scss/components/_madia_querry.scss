@@ -112,24 +112,36 @@
     .carousel-control-next-icon {
         background-color: #daa26b
     }
-    /*---------------------------------------------------------------------------------------------------------------------*/
-    .envios1 img {
-        max-width: 300px;
-        max-height: 250px;
+/*---------------------------------------------------------------------------------------------------------------------*/
+    /*Tortas*/
+    .titulo {
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.288);
+        color: white;
+        padding: 5px;
+        text-align: center;
+        font-size: 15px;
     }
-    h4 {
-        margin: 40px auto;
-        width: fit-content;
-        background-color: #e8c39e;
-        font-size: 17px;
-        font-weight: 800;
-        color: #ffffff;
-        line-height: 34px;
-        padding-bottom: 3px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 20px;
-    }
+/*---------------------------------------------------------------------------------------------------------------------*/
+        /*Envios*/
+        .container-from-envios{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            text-align: center;
+            font-size: 20px;
+            background: #ffffff;
+            padding: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 50px;
+        }    
+    
     .pregunta {
         font-size: 20px;
         margin-top: 55px;
@@ -145,52 +157,131 @@
         max-width: 320px;
         max-height: auto;
     }
+/*---------------------------------------------------------------------------------------------------------------------*/
+    /*Nosotros*/
     .sobremi2 {
-        padding: 3px 10px;
-        border: rgb(0, 0, 0) 5px double;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        margin-top: 5px;
+        padding: 6px 20px;
+        margin-top: 10px;
         font-family: 'Poppins', sans-serif;
         color: #000000;
-        background-color: #d4ad87a6;
+        text-align: center;
+        background-color: #e8c39ed3;
         font-size: 15px;
     }
-    .sobremi1 {
-        padding: 3px 10px;
-        border: rgb(0, 0, 0) 5px double;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+    .sobremi1,
+    .sobremi3 {
+        padding: 6px 20px;
         text-align: center;
-        margin-top: 5px;
+        margin-top: 10px;
         font-family: 'Poppins', sans-serif;
-        background-color: #d4ad8798;
+        background-color: #e8c39ed3;
         color: #000000;
         font-size: 15px;
+    }
+    .banner3{
+        margin-top: 0px;
+        margin-right: 10px;
+        justify-content: center;
+        height: 0px;
+        width: 0px;
     }
     .img-fluid {
-        margin: 0;
-        max-width: 200px;
-        max-height: 200px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: 5px;
+        width: 550px;
+        height: 500px;
     }
-
-    .container-from {
-        grid-template-columns: 1fr;
-        /* Cambia a una sola columna */
-        grid-gap: 20px;
-        /* Cambia a una sola columna */
-    }
-    .container-from h4,
-    .container-from p,
-    .container-from a,
-    .container-from form .campo,
-    .container-from form textarea,
-    .container-from .btn-enviar {
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    /*Contacto*/
+    h6 {
+        font-weight: 900;
+        color: #fffbfb;
         text-align: center;
-        /* Alinea al centro */
-        width: 100%;
-        /* Ocupa el ancho completo */
+        font-family: "Poppins", sans-serif;
+        background-color: #e8c39e;
+        padding: 10px;
+        line-height: 30px;
+        border-radius: 20px;
+        margin: 10px; 
     }
+    .container-from {
+        width: 100%;
+        max-width: 375px; 
+        margin: 0 auto; 
+        padding: 10px; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 20px; 
+    }
+    .container-from h6 {
+        margin-bottom: 10px; 
+        font-size: 40px; 
+    }
+    .container-from p {
+        background-color: #e8c39e;
+        color: #ffffff;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 20px; 
+        line-height: 1.9;
+    }
+    .gif1 img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .container-from a {
+        font-size: 20px; 
+        text-decoration: none;
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        margin-top: 10px; 
+        margin-bottom: 16px; 
+    }
+    .container-from a i {
+        font-size: 40px;
+        text-align: center;
+        color: #e8c39e;
+        margin-bottom: 0px;
+    }
+    .container-from form .campo,
+    .container-from form textarea {
+        width: 100%;
+        text-align: center;
+        padding: 20px 20px; /* Aumenta el padding para hacer los campos más grandes */
+        font-size: 20px;
+        border: 1px solid #e8c39e;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+    .container-from form textarea {
+        text-align: center;
+        min-width: 100%; /* Asegura que el textarea ocupe todo el ancho disponible */
+        min-height: 200px; /* Aumenta la altura mínima del textarea */
+        max-height: 250px; /* Aumenta la altura máxima del textarea */
+    }
+    .container-from .btn-enviar {  
+        padding: 10px;
+        font-size: 15px; /* Reduce el tamaño del botón */
+        border: none;
+        outline: 0px;
+        background: #e8c39e;
+        color: rgb(255, 255, 255);
+        font-family: "Poppins", sans-serif;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 300ms ease;
+        margin-top: 15px; 
+        margin-left: 100px;
+        margin-right: 10px;
+    }
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     footer {
         font-family: 'Poppins', sans-serif;
         height: 80px; /* Ajusta la altura según tus necesidades */

@@ -1,35 +1,28 @@
-.sobremi1 {
-    display: flex;
-    margin-top: 30px;
+.sobremi1,
+.sobremi2,
+.sobremi3 {
     font-family: 'Poppins', sans-serif;
-    color: #000000;
-    font-size: 25px;
-    text-align: center;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    line-height: 30px;
-    padding: 3px 10px;
-    border: rgba(148, 111, 111, 0.815) 5px double;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-.sobremi2 {
-    margin-top: 30px;
-    font-family: 'Poppins', sans-serif;
-    color: #000000;
-    font-size: 25px;
-    text-align: center;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-    line-height: 30px;
-    padding: 3px 10px;
-    border: rgba(148, 111, 111, 0.815) 5px double;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    color: black;
+    margin: 0 auto; /* Centra horizontalmente los bloques de texto */
+    max-width: 1000px; /* Define un ancho máximo para los bloques de texto */
+    padding: 15px; /* Añade un espacio alrededor del contenido */
+    text-align: justify; /* Justifica el texto */
+    font-size: 25px; /* Tamaño de fuente deseado */
+    line-height: 1.5; /* Espaciado de línea deseado */
+    
 }
 .img-fluid {
-    max-width: 80%;
+    max-width: 800px;
     border-radius: 5px;
     padding-right: 5px;
-    padding-left: 0px;
+    padding-left: 55px;
+}
+.banner3{
+    text-align: center;
+    width: 1420;
+    height: 400px;
+}
+.banner3 img{
+    width: 1200px;
+    height: auto;
 }
